@@ -1,1 +1,13 @@
 /* YeyeYeee código aquí */
+.ingreso{
+	padding-top: 15%;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+#img-logo{
+	height: 100px;
+	width: auto;
+}
+.form-group {
+    margin-bottom: 0px;
+}
