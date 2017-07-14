@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Opciones-App</title>
+	<meta name=""><meta name="viewport" content="width=device-width, initial-scale=1"><!-- Latest compiled and minified CSS -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/indexsaldo.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<header>
+		<div id="wrapper">
+			<div class="overlay"></div>
+
+			<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+				<ul class="nav sidebar-nav">
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"><span class="glyphicon glyphicon-usd"></span> Ver saldo</a>
+					</li>
+					<li>
+						<a href="#"><span class="glyphicon glyphicon-th"></span> Calcular Tarifas</a>
+					</li>
+					<li>
+						<a href="#"><span class="glyphicon glyphicon-user"></span> Perfil</a>
+					</li>
+					<li>
+						<a href="#"><span class="glyphicon glyphicon-list-alt"></span> Preguntas Frecuentes</a>
+					</li>
+					<li>
+						<a href="#"><span class="glyphicon glyphicon-arrow-right"></span> Home</a>
+					</li>
+				</ul>
+			</nav>
+			<div id="page-content-wrapper">
+				<button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+					<span class="hamb-top"></span>
+					<span class="hamb-middle"></span>
+					<span class="hamb-bottom"></span>
+				</button>
+			</div>
+		</div>
+
+	</header>
+
+	<section >
+		<div class="container" id="backvsdl">
+			<div class="row" >
+				<div class="col-lg-12 text-center">
+					<div class="form-group">
+					  <label for="saldo"></label>
+					  <input type="valor" class="form-control" id="sld" placeholder="Número de tarjeta">
+					</div>
+				</div>	
+					<div class="row">
+					  <div class="col-xs-6">
+					  <div class="form-group">
+					    	 <div  id="tarifa"class="form-inline" id="tarifa" class="select-inline">
+						      <label for="sel1">Tarifa</label>
+						      <select class="form-control" id="sel1">
+						        <option>Choose your option</option>
+						        <option>Choose your option</option>
+						        <option>Choose your option</option>
+						        <option>Choose your option</option>
+						      </select>
+					    </div></div>
+					  </div>
+					  <div class="col-xs-6">
+					  <div class="form-group">
+						      <label id="tarj" for="sel1">Tarjeta</label>
+						      <select class="form-control" >
+						        <option>Choose your option</option>
+						        <option>Choose your option</option>
+						        <option>Choose your option</option>
+						        <option>Choose your option</option>
+						      </select>
+					    </div>
+					    </div>
+					  </div>
+					</div>
+
+
+				<div class="col-lg-10 text-center">
+					<button type="button" class="btn btn-warning btn-block " id="btnSld">Calcular</button>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+
+
+	<!--script-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

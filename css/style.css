@@ -127,3 +127,14 @@
 	height: 50px;
 	width: 100%;
 }
+
+/* Calcular Tarifa*/
+#tarifa{
+	margin-top: 15%;
+}
+#tarj{
+	margin-top: 15%;
+}
+select.form-control{
+	font-size: 11px;
+}

@@ -1,7 +1,25 @@
 /* Holiii acá va tu código también */
-$(document).ready(function() {
-
 $(document).ready(function () {
+
+$("#login").click(function(){
+ 
+	  if($("#mail").val().length == ""){  
+	  	alert("Ingresa tú código")
+	 } else if($("#mail").val().length < 7){
+	 	alert("mal perrin, te faltan numbers wacho!")
+	 } else if($("#mail").val().length > 7){
+	 	alert("te sobran numeros ṕerrin!")
+	 } else if($("#mail").val().length === 7){
+	 	alert("wena perrin, la hiciste")
+	 }
+
+	});
+
+
+
+
+
+	
 	var trigger = $('.hamburger'),
 	overlay = $('.overlay'),
 	isClosed = false;
@@ -29,9 +47,3 @@ $(document).ready(function () {
 		$('#wrapper').toggleClass('toggled');
 	});  
 });
-
-
-});
-
-	
-
