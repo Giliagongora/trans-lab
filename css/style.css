@@ -1,8 +1,18 @@
 /* YeyeYeee código aquí */
+
+/* ingreso usuario */
+#backingreso{
+	background-color: #292929;
+	height: 100vh;
+	width: 100%;
+	padding-bottom: 60%;
+}
+.ingreso h1{
+	color: yellow;
+	margin-bottom: 15%;
+}
 .ingreso{
 	padding-top: 15%;
-	padding-right: 5%;
-	padding-left: 5%;
 }
 #img-logo{
 	height: 100px;
@@ -10,4 +20,13 @@
 }
 .form-group {
     margin-bottom: 0px;
+}
+.ingreso p, h4 {
+	color: white;
+}
+/* ingreso usuario */
+#backsaldo{
+	background-color: #cfcfcf;
+	height: 100vh;
+
 }
