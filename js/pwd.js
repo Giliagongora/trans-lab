@@ -13,8 +13,9 @@ $(document).ready(function() {
             console.log("Valid email address.");
         }
     });
-  
 
+    
+  
 $("#login").click(function(){
 
 	  if($("#pwd").val().length == ""){  
