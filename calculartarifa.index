@@ -86,7 +86,7 @@
 
 
 				<div class="col-lg-10 text-center">
-					<button type="button" class="btn btn-warning btn-block " id="btnSld">Calcular</button>
+					<button class="btn btn-warning btn-block " id="btnSld">Calcular</button>
 				</div>
 				
 			</div>

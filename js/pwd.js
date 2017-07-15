@@ -20,9 +20,9 @@ $("#login").click(function(){
 	  if($("#pwd").val().length == ""){  
 	  	alert("Ingresa tú contraseña")
 	 }else if($("#pwd").val().length < 8){
-	 	alert("Debes ingresar un minimo de 8 letras")
+	 	alert("Debes ingresar un minimo de 8 números")
 	 } else if($("#pwd").val().length > 8){
-	 	alert("Ingresaste demasiadas letras")
+	 	alert("Ingresaste demasiadas números")
 	 } else if($("#pwd").val().length === 8){
 	 	$("#login").attr("href","indexsaldo.html")
 	 }

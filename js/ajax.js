@@ -5,9 +5,10 @@ $(document).ready(function () {
 	//Guardar tarjeta 
 	$('#addtarje').click(function() {
 		var numbtarj = $('numbtar').value();
+
 	});
 
-
+/*
 	function guardar()
 	{
 		// Guardamos el nombre y apellido en la base de datos del navegador
@@ -16,7 +17,7 @@ $(document).ready(function () {
  
 		mostrarDatos();
 	}
-
+*/
 	$.ajax({
 		url: 'http://bip-servicio.herokuapp.com/api/v1/solicitudes.json?bip={id}',
 		type: 'GET',
